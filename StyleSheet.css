@@ -1,7 +1,30 @@
-Header {
+h1 {
+  color:#F8E9A1;
+  border: 4px dotted #F8E9A1;
+  background-color:#A8D0E6;
+  padding:20px;
   text-align: center;
-  font-size: 25%;
+  font-family: "Times New Roman", Times, serif;
 }
-subheading{
-  font-size: 15%;
+p {
+  color: #F76C6C;
+  font-size: 150%;
+  background-color:#A8D0E6;
+  border: 4px dotted #F76C6C;
+  padding:10px;
+  font-family: "Times New Roman", Times, serif;
+}
+#List {
+  font-size: 125%;
+  font-family: "Times New Roman", Times, serif;
+  color:#374785;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
