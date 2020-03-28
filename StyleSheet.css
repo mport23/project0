@@ -14,18 +14,25 @@ p {
   padding:10px;
   font-family: "Times New Roman", Times, serif;
 }
-#List {
+.List {
   font-size: 125%;
   font-family: "Times New Roman", Times, serif;
   color:#374785;
 }
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.row {
+  display: flex;
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+
+.column {
+  flex: 33.33%;
+}
+.subheading {
+  font-size: 138%;
+  font-family: "Times New Roman", Times, serif;
+  color:#374785;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 60%;
+  }
 }
