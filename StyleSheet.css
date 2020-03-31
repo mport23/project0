@@ -36,3 +36,21 @@ p {
     width: 60%;
   }
 }
+#places {
+  color: black;
+  padding: 40px;
+  text-align: center;
+  width: 95%;
+}
+th, td{
+  border: 3px solid black;
+  font-family: "Times New Roman", Times, serif;
+}
+th{
+  font-size: 30px;
+  background-color: #2ab7ca;
+}
+td{
+  font-size: 22px;
+  background-color: ##e6e6ea;
+}
